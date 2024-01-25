@@ -56,7 +56,7 @@ export default function SearchPage() {
                 
             </div>
             { searchResult && 
-                <>
+                <div className="text-center">
                     {
                         searchResult.map(image => {
                             return(
@@ -71,7 +71,7 @@ export default function SearchPage() {
                             )
                         })
                     }
-                </>
+                </div>
             }
             
 
