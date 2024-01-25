@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { UnsplashImage } from "../../models/unsplash-image";
+import { UnsplashImage } from "../../../models/unsplash-image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Alert } from "react-bootstrap";

@@ -1,4 +1,4 @@
-import { UnsplashImage } from "@/app/models/unsplash-image";
+import { UnsplashImage } from "@/models/unsplash-image";
 import Image from "next/image";
 import styles from "./page.module.css"
 import { Alert } from "react-bootstrap";

@@ -1,6 +1,6 @@
 "use client"
 
-import { UnsplashImage } from "@/app/models/unsplash-image";
+import { UnsplashImage } from "@/models/unsplash-image";
 import Image from "next/image";
 import { FormEvent, useState } from "react"
 import { Form, Button, Spinner, Alert } from "react-bootstrap"
