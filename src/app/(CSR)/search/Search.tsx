@@ -53,7 +53,9 @@ export default function SearchPage() {
                 {searchResultLoading && <Spinner animation="border" />}
                 {searchResultError && <p>Something went Wrong</p>}
                 {searchResult?.length === 0 && <p>Nothing found, Try another!</p>}
-                { searchResult && 
+                
+            </div>
+            { searchResult && 
                 <>
                     {
                         searchResult.map(image => {
@@ -71,8 +73,6 @@ export default function SearchPage() {
                     }
                 </>
             }
-            </div>
-
             
 
         </div>
